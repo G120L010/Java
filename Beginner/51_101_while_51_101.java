@@ -14,7 +14,5 @@ public class while_51_101 {
 			i++;
 		}
 		System.out.println(total);
-
 	}
-
 }
