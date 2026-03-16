@@ -1,7 +1,7 @@
 package helloworld;
 
 public class Module49_98 {
-	//"順序" array-->index.data
+	//      "順序" array-->index.data
 	//		for(int i = 0; i<alength; i++)
 	//		(0~a.length-1)-->index的range，a[i]=值，[i]外層
 	public static void main(String[] args) {
