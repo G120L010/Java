@@ -10,7 +10,6 @@ public class Module49_98 {
     	// b 當作「列 (row)」
 		int[] a= {1,2,3};// 宣告陣列 a，包含 1,2,3 (這列速度快)
 		int[] b= {4,5,6,7};// 宣告陣列 b，包含 4,5,6,7 (這列速度慢)
-
 		
 		System.out.print("a\\b\t"); // 印出表格左上角標題，\t 是 tab，用來讓輸出對齊
 		for (int i = 0; i < a.length; i++) {
