@@ -45,9 +45,12 @@ public class Char {
 		// 會產生固定間距
 		// 常用於對齊輸出
 		System.out.println("A\tB\tC");
-		
+
 		// 利用 \t 可以讓資料呈現成類似表格格式
 		System.out.println("AA\tBB\tCC");
 		System.out.println("AAA\tBBB\tCCC");
+
+		// Unicode字元平面：\ u + 4位16進位數字，跳脫字元
+		System.out.println("\u32C4\u2230\u33E7");
 	}
 }
