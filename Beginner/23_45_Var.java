@@ -1,8 +1,9 @@
+// 意思：宣告一個資料夾（package），名稱為helloworld
 package helloworld;
 
 //Java 基本宣告說明（老師講解版本）
 //public class Var 是在「宣告」一個類別
-//意思為：宣告一個公開的類別，名稱叫 Var
+//意思：宣告一個公開的類別，名稱叫 Var
 public class Var {
 
 	// public：公開的（類別或方法可以被其他地方存取）
@@ -10,7 +11,7 @@ public class Var {
 	// void：表示沒有回傳值
 	// main：主程式入口名稱（程式從這裡開始執行）
 	// String[] args：接收命令列參數
-	// 宣告一個(公開、靜態、無回傳值)的方法，方法名稱叫做main
+	// 意思：宣告一個(公開、靜態、無回傳值)的方法，方法名稱叫做main
 	public static void main(String[] args) {
 
 		// var：自動型別推斷（由右邊的值決定型別）
