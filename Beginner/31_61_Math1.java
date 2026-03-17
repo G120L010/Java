@@ -41,5 +41,29 @@ public class Math1 {
 		float b4 = 3f;
 		Object c4 = a4 + b4;
 		System.out.println(c4.getClass().getSimpleName()); // Float
+
+		// 老師補充：
+		double a5 = 100;
+		int b5 = 3;
+
+		// double + int → 結果應是 double
+		Object c5 = a5 + b5;
+
+		// c5 是 Double 型別
+		// getClass() 可取得「資料型別」
+		// c5（資料） → getClass() → Double（型別） → getClass() → Class（型別的型別）
+		System.out.println(c5.getClass().getClass().getSimpleName()); // Class
+
+		// 取得 c5 的型別 → Double
+		Class class1 = c5.getClass();
+
+		// 再取一次型別 → Class（類別本身也是一種型別）
+		Class class2 = class1.getClass();
+
+		// class1 是 Double
+		System.out.println("class1:" + class1.getSimpleName());
+
+		// class2 是 Class
+		System.out.println("class2:" + class2.getSimpleName());
 	}
 }
