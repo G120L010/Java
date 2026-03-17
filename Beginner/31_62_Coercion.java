@@ -4,18 +4,34 @@ public class Coercion {
 
 	public static void main(String[] args) {
 
+		// 強制轉型（大轉小）
 		// long → int 強制轉型
-		// 2147483648L 超過 int 的最大值（2147483647）
-		// 強制轉型時會發生「溢位」，數值會從頭開始算
+		// 2147483648L 超過 int 最大值
 		int i = (int) 2147483648L;
-		System.out.println(i); // 會變成 -2147483648
+		System.out.println("int i = " + i); // 左 大於 右
 
 		// int → byte 強制轉型
-		// byte 範圍是 -128 ~ 127
-		// 轉型時只保留最後 8 位元（會再次溢位）
+		// byte 範圍 -128 ~ 127
 		byte b2 = (byte) i;
-		System.out.println(b2); // 結果會是 0
+		System.out.println("byte b2 = " + b2); // i 的數值超出 byte 可表示範圍 
+		// 強制轉型流程：
+		// 2147483648L → (int) → -2147483648 → (byte) → 0
+		//__________________________________________________________________
 		
-		// 整個流程：2147483648L → (int) → -2147483648 → (byte) → 0
+		// 自動轉型（小轉大）
+		// int → long 自動轉型
+		int a = 100;
+		long l = a;   // 不需要寫 (long)
+		System.out.println("long L = " + l);
+
+		// 自動轉型流程：
+		// 100 (int) → 自動轉成 long → 100L
+		// int → double 自動轉型
+		int x = 50;
+		double d = x;  // 不需要寫 (double)
+		System.out.println("double D = " + d);
+
+		// 自動轉型流程：
+		// 50 (int) → 自動轉成 double → 50.0
 	}
 }
