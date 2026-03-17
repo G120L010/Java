@@ -21,12 +21,12 @@ public class HelloWorld {
 		int userAge = 20; // camelCase 範例
 
 		//變數的多個宣告，用","隔開
-		int salary=30000,id=1;//現在已不流行這種一次排開的寫法
+		int salary=60000,id=1;//現在已不流行這種一次排開的寫法
 
 		// 在主控台(Console)輸出程式運行結果
 		System.out.println($_idAge年齡);
 		System.out.println(userAge);
-		System.out.println("Hello World!!");
+		System.out.println((id)+"Hello World!!"+(salary));
 
 		// ===== Eclipse 常用快捷鍵 =====
 
