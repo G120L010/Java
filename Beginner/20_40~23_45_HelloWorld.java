@@ -1,3 +1,4 @@
+//老師推薦新手工程師的書：無瑕的程式碼 － 敏捷軟體開發技巧守則 (Clean Code: A Handbook of Agile Software Craftsmanship)
 package helloworld;
 
 /* 在專案中的類別HelloWorld建立人生首支程式
