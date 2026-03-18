@@ -8,6 +8,9 @@ public class Test {
 	    car.brand = "Honda"; // 設定 brand 屬性為 "Honda"
 	    car.color = "紅色";   // 設定 color 屬性為 "紅色"
 
+		System.out.println(car.brand); //列印brand屬性
+		System.out.println(car.color); //列印color屬性
+		
 	    Car car2; // 宣告另一個 Car 類別的變數 car2
 	    car2 = new Car(); // 建立另一個新的 Car 物件，假設記憶體位址是 0x200
 	    car2.brand = "Honda"; // 設定 brand 屬性為 "Honda"
