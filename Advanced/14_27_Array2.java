@@ -8,9 +8,11 @@ public class Array2 {
 		array[0][1] = 8;
 		array[0][2] = 9;
 		// System.out.println(array[0][2]);
-		int[][] array2 = {  { 1, 2, 3, 4 },
+		int[][] array2 = {  
+							{ 1, 2, 3, 4 },
 							{ 5, 6 },
-							{ 7, 8, 9, 10, 11, 15 } };
+							{ 7, 8, 9, 10, 11, 15 } 
+						};
 		for (int[] is : array2) {
 			for (int i : is) {
 				System.out.print(i + ",");
