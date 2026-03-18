@@ -11,7 +11,7 @@ public class Human {
 		return bmi;
 	}
 
-	// 靜態方法
+	// 靜態方法：課本19_38
 	public static double getBMI2(double weight, double height) {
 		double bmi = weight / Math.pow(height, 2);
 		return bmi;
