@@ -1,8 +1,9 @@
 package advanced;
 
-public class Obj {//可以使用自訂類別
+public class ObjectTest {
 
 	public static void main(String[] args) {
+
 		ObjectTest o1 = new ObjectTest();
 		// 建立一個新的物件，假設記憶體位址是 0x100
 		// o1 變數存放的是 0x100
@@ -22,5 +23,12 @@ public class Obj {//可以使用自訂類別
 
 		System.out.println(o1 == o3);
 		// 比較 o1 和 o3 的位址：0x100 vs 0x100 → true
+
+		// 整數物件：在-128~127區間，範圍內：true，範圍外：false
+		// Object o4 = 127;
+		// Object o5 = 127;
+		// Object o4 = 129;
+		// Object o5 = 129;		
+		// System.out.println(o4 == o5);
 	}
 }
