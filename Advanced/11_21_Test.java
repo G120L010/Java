@@ -8,6 +8,7 @@ public class Test {
 	    car.brand = "Honda"; // 設定 brand 屬性為 "Honda"
 	    car.color = "紅色";   // 設定 color 屬性為 "紅色"
 
+		car.go();
 		System.out.println(car.brand); //列印brand屬性
 		System.out.println(car.color); //列印color屬性
 		
