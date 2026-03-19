@@ -5,5 +5,5 @@ public class OverrideFish extends OverrideAnimal {
 	public void 呼吸() {
 		System.out.println("用鰓呼吸");
 	}
-
+	
 }
