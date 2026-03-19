@@ -5,10 +5,10 @@ import a.a.AStatic;
 public class BStatic {
 
 	public static void main(String[] args) {
-		Afinal a = new Afinal();
-		Afinal a1 = new Afinal();
-		Afinal a2 = new Afinal();
-		Afinal a3 = new Afinal();
+		AStatic a = new AStatic();
+		AStatic a1 = new AStatic();
+		AStatic a2 = new AStatic();
+		AStatic a3 = new AStatic();
 		System.out.println();
 		
 	}
