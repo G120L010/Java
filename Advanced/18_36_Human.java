@@ -12,7 +12,7 @@ public class Human {
 		double bmi = weight / Math.pow(height, 2); // Math.pow(x, y) 代表 x 的 y 次方
 		return bmi; // 回傳計算結果
 	}
-	// 靜態方法（類別方法）
+	// 靜態方法（類別方法）：不能使用屬性
 	// 課本19_38
 	public static double getBMI2(double weight, double height) {
 		// 不需要建立物件，可以直接用類別名稱呼叫
