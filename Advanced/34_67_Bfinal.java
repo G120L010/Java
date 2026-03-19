@@ -1,6 +1,6 @@
 package a.b;
 
-import a.a.A;
+import a.a.Afinal;
 
 public class Bfinal extends Afinal { // 觀察3
 	public void name() { // 觀察2
