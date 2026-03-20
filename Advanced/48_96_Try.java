@@ -2,7 +2,7 @@ package demo2;
 
 import javax.swing.JOptionPane;
 
-public class Try {
+public class Try_catch_finally {
 
 	public static void main(String[] args) {
 
