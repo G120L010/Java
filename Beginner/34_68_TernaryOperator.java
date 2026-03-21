@@ -26,7 +26,7 @@ public class TernaryOperator {
 				System.out.println("B"); // 最終執行這裡！
 			}
 		} else {                       // 第一層【  :對應(else) 】
-			System.out.println("C");
+			System.out.println("C"); //如果將第一層條件改成 false ，答案就會是 "C"。
 		}
 		
 		
