@@ -1,5 +1,5 @@
 package helloworld;
-
+//Co_erc_ion強迫
 public class Coercion {
 //	當等號左邊的範圍>(大於)右邊的範圍，則不用強制轉型，可直接放值，如：
 //	double d = 1;//1是int
