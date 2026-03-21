@@ -41,7 +41,10 @@ public class TernaryOperator {
 		// 2. 第二層條件 (設定false = 我飲料不要加大)
 		//		    -> 你選了 false (不加大)。
 		//		    -> 所以 "大杯綠茶" (A) 出局，最後你拿到的是 "中杯綠茶" (B)。
-		// 結論：第一層的 true 只是讓我「有資格」去選 A 或 B ，去做飲料的選擇
+		// 結論：第一層的 true 只是讓我「有資格」去選 A 或 B ，來去做飲料的選擇
 		//		       但最後是 A 還是 B，得看第二層的條件結果(true OR false)決定。
+		
+		//System.out.println((true ? (false ? "A" : (false ? "B" : "C")) : "D"));
+		//我要分別做出A、B、C、D的不同選擇，要怎麼改？
 	}
 }
