@@ -2,7 +2,7 @@ package helloworld;
 
 import javax.swing.JOptionPane; // 引用工具：JOptionPane 用來建立視窗對話框
 
-public class MyStringBMI {//字串型態 轉 對應整數型態 教學
+public class MyStringBMI {//字串型態 轉成對應 整數型態 教學
 
 	public static void main(String[] args) {
 		// --- 建立視窗：輸入身高 ---
