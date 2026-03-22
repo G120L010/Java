@@ -2,7 +2,7 @@ package helloworld;
 
 import java.util.Scanner; // 引用工具
 
-public class InputStream { //輸入流
+public class InputStream {
 
 	public static void main(String[] args) {
 
@@ -24,6 +24,8 @@ public class InputStream { //輸入流
 		// 4.然後在前面進行字串的宣告，名稱取名str，String str
 		// 5.sc.next()取得的資料值，會指派給str這個變數
 		String str = sc.next(); // 步驟二
+		
+		String str1 = sc.nextLine();
 
 		// 然後來觀察str裡面有甚麼東西 被輸入，然後去建立輸出
 		System.out.println(str); // 步驟三
@@ -48,4 +50,10 @@ public class InputStream { //輸入流
     // (System.in) 是建構子的參數，指定輸入來源。
     // new Scanner(System.in) → 建立一個新的 Scanner 物件，並且讓它使用鍵盤輸入。
     // 當看到 new 類別名稱(...)，就是在呼叫建構子來建立物件。
+	
+	// --- Scanner 常用方法速查表 ---
+    // sc.next()     → 讀取「一個字串 token」，遇到空白就停止 (適合單字)
+    // sc.nextLine() → 讀取「整行文字」，直到按下 Enter 為止 (適合句子或段落)
+    // sc.nextInt()  → 讀取一個整數 (int)
+    // sc.nextDouble() → 讀取一個浮點數 (double)
 }
