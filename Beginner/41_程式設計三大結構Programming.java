@@ -36,3 +36,41 @@ public class Programming { //程式設計結構
 //    範例：讀取資料、計算總和、疊代處理
 //
 //總結：所有程式邏輯都是由「循序、選擇、循環」三大結構組合而成
+
+// --- 流程控制：選擇結構 ---
+// 1. if [-else if] [-else]
+//    - 條件判斷，結果一定是布林值 (true / false)
+//    - 適合用在「範圍判斷」或「邏輯判斷」
+//    範例：
+//    int score = 75;
+//    if (score >= 90) {
+//        System.out.println("優秀");
+//    } else if (score >= 60) {
+//        System.out.println("及格");
+//    } else {
+//        System.out.println("不及格");
+//    }
+//
+// 2. switch-case
+//    - 適合用在「固定值判斷」(例如數字、字串)
+//    - 每個 case 對應一個可能的值
+//    - 通常搭配 break 使用，避免落入下一個 case
+//    範例：
+//    int day = 3;
+//    switch (day) {
+//        case 1: System.out.println("星期一"); break;
+//        case 2: System.out.println("星期二"); break;
+//        case 3: System.out.println("星期三"); break;
+//        default: System.out.println("其他");
+//    }
+//
+// --- 比較表 ---
+// if 結構：
+//   ✔ 適合範圍判斷 (>=, <=, >, <)
+//   ✔ 適合複雜邏輯 (布林運算)
+//   ✘ 不適合太多固定值判斷
+//
+// switch-case 結構：
+//   ✔ 適合固定值判斷 (數字、字串)
+//   ✔ 結構清晰，適合多重選擇
+//   ✘ 不適合範圍判斷
