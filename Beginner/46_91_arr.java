@@ -47,5 +47,11 @@ public class arr {
 		// length (長度) 是陣列的「屬性 (field)」
 		// 用來取得陣列長度
 		// 這個陣列有 4 個元素，所以結果是 4
+		
+		System.out.println(arr);
+		// 直接印出陣列變數 → 輸出的是記憶體位址 (例如 [I@15db9742)
+        // 因為陣列是「參考型別」，不是基本型別
+        // 如果要印出內容，要用 Arrays.toString(arr)
+        // 範例：System.out.println(Arrays.toString(arr)); → [50, 2, 3, 4]
 	}
 }
