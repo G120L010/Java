@@ -1,5 +1,5 @@
 package helloworld;
-
+//swing是介面
 import javax.swing.JOptionPane; // 引用工具：JOptionPane 是 Java 提供的視窗對話框類別
 
 public class MyJOptionPane {
