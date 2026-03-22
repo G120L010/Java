@@ -12,7 +12,7 @@ public class MySwitch_Case2 {
 		switch (s) {
 		case small:
 			System.out.println("小杯");
-			break;
+			break;//如果這行沒有，就會同時給出"小杯、中杯"
 
 		case mid:
 			System.out.println("中杯");
@@ -40,3 +40,22 @@ public class MySwitch_Case2 {
 //    - 如果都不符合 → 執行 default，輸出「靠杯」
 // 4. 程式只會執行符合的第一個 case，並在 break 後結束判斷。
 //    這就是 switch-case 搭配 enum 的「固定值多重選擇」結構。
+
+
+// --- 程式三大基本結構 ---
+// 1. 循序結構 (Sequential Structure)
+//    → 程式一行一行依序執行，沒有分支或迴圈
+//    → 範例：int a = 10; int b = 20; int c = a + b;
+//
+// 2. 選擇結構 (Selection Structure)
+//    → 根據條件不同，選擇不同的執行路徑
+//    → 範例：if-else、switch-case
+//
+// 3. 迴圈結構 (Loop Structure)
+//    → 重複執行某段程式碼，直到條件不成立
+//    → 範例：for、while、do-while
+//
+// --- 套用到 MySwitch_Case2 ---
+// Size s = Size.valueOf("mid"); → 屬於循序結構 (單純依序執行)
+// switch (s) { ... }            → 屬於選擇結構 (根據 enum 值選擇分支)
+
