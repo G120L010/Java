@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ListDemo1 {
+public class ListDemo {
 
 	public static void main(String[] args) {
 		List list = new ArrayList();
@@ -14,14 +14,14 @@ public class ListDemo1 {
 		list.add(s);
 		
 		list.add("Banana");
-		list.add("Apple");
 		list.add("Cat");
+		list.add("Apple");
 		
 		System.out.println(list);
 		list.remove(s);
 		
 		System.out.println(list);
-		System.out.println(list.get(1));
+		System.out.println(list.get(3));
 
 	}
 
