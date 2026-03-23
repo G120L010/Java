@@ -3,7 +3,7 @@ package advanced;
 
 //物件：架構與行為不會改變
 
-public class car1 { // 類別
+public class Car { // 類別
 	public String brand; // 屬性
 	public String color; // 屬性
 
@@ -17,7 +17,7 @@ public class car1 { // 類別
 //   /	\
 // 以"物件"為主
 
-//物件三大特性
+//物件導向三大特性
 // 1.封裝：所有屬性進行打包(包起來)，主要為了"便利性"，
 //   而【"良好的""安全"】特性只是附帶，這可進行解耦：1.出、2.入。
 
@@ -30,11 +30,11 @@ public class car1 { // 類別
 //   子類別(香蕉)A is 父類別(水果)B
 //   香蕉(子類別)是一種水果(父類別)
 
-//	 A X = new A();
+//	 當A X = new A();時
 //	 1.可以 X.A();
 //	 2.可以 X.B();
 
-//   B X = new A();
+//   當B X = new A();時
 //   1.不行 X.A();
 //   2.可以 X.B();
 
