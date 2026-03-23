@@ -19,7 +19,7 @@ public class MapSetDemo {
 		System.out.println(map);
 		Set keySet = map.keySet();
 		for (Object object : keySet) {
-			System.out.println("key+" + object + ",value=" + map.get(object));
+			System.out.println("key=" + object + ",value=" + map.get(object));
 		}
 	}
 
