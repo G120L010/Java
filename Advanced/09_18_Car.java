@@ -38,6 +38,8 @@ public class Car { // 類別
 //   1.不行 X.A();
 //   2.可以 X.B();
 
+//結論：只能使用宣告類別已知的方法
+
 //如何寫類別：
 //修飾子(public)、類別(Class)、類別名稱(name){
 //	修飾子(public)、型別(type)、屬性名稱(name);
