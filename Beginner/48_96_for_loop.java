@@ -13,7 +13,19 @@ public class for_loop {
 			System.out.println("i="+i);
 			System.out.println("total="+total);
 		}
+		// 經典老牌：for
+		// for(初始值;條件;步進值)
+		// 條件：true=>做，false=>不做
+		// 步進值：每次迴圈的改變量
+
 		
+		// while(條件)
+		// 條件：true=>做，false=>不做
+
+		//do{ 必做一次
+		
+		// }while(條件);
+		// 條件：true=>做，false=>不做
 	}
 
 }
