@@ -15,16 +15,19 @@ public class for_loop {
 		}
 		// 經典老牌：for
 		// for(初始值;條件;步進值)
+		
 		// 條件：true=>做，false=>不做
 		// 步進值：每次迴圈的改變量
 
-		
+		// 經典老牌：while
 		// while(條件)
 		// 條件：true=>做，false=>不做
 
+		
+		//經典老牌：do-while
 		//do{ 必做一次
 		
-		// }while(條件);
+		// } while(條件);
 		// 條件：true=>做，false=>不做
 	}
 
