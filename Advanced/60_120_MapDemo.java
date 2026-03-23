@@ -14,6 +14,7 @@ public class MapDemo {
 		map.put("Dog", new Dog());// key-value："Dog"是key，而new Dog()是value。
 		map.put("Duck", new Duck());
 		map.put("Fish", new Fish());
+		map.put("1234", 1234);
 		System.out.println(map);
 		System.out.println(map.remove("Dog"));
 		System.out.println(map);
