@@ -32,6 +32,7 @@ public class SetDemo {
 		System.out.println("清除clear：" + set);
 
 		System.out.println("為空嗎？：" + set.isEmpty());// (is是不是)(Empty為空？)
+
 	}
 
 }
