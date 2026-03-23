@@ -1,12 +1,13 @@
 package advanced;
 //類別：理論上沒有實體，去訂定結構
+
 //物件：架構與行為不會改變
 
-public class Car {			//類別
-	public String brand;	//屬性
-	public String color;	//屬性
-	
-	public void go() {		//method方法
+public class car1 { // 類別
+	public String brand; // 屬性
+	public String color; // 屬性
+
+	public void go() { // method方法
 		System.out.println("出發");
 	}
 }
@@ -17,6 +18,33 @@ public class Car {			//類別
 // 以"物件"為主
 
 //物件三大特性
-// 1.封裝：
-// 2.繼承：
-// 3.多型：
+// 1.封裝：所有屬性進行打包(包起來)，主要為了"便利性"，
+//   而【"良好的""安全"】特性只是附帶，這可進行解耦：1.出、2.入。
+
+// 2.繼承：最核心的概念，類別A is a 類別B，表達兩者之間的關聯性。
+//   但繼承會增加耦合度。
+//   舊類別=>擴充=>新類別 extends 舊類別
+//   實務上：在舊類別基礎上，以繼承的概念，另開新類別來進行功能的擴充。
+
+// 3.多型：多個型態，出現在同一個物件上。
+//   子類別(香蕉)A is 父類別(水果)B
+//   香蕉(子類別)是一種水果(父類別)
+
+//	 A X = new A();
+//	 1.可以 X.A();
+//	 2.可以 X.B();
+
+//   B X = new A();
+//   1.不行 X.A();
+//   2.可以 X.B();
+
+//如何寫類別：
+//修飾子(public)、類別(Class)、類別名稱(name){
+//	修飾子(public)、型別(type)、屬性名稱(name);
+//	修飾子(public)、回傳型別(type)、方法名稱 (參數：Type var1, Type var2){
+//	方法本體
+//  return 再搭配回傳值;
+//  }
+//}
+
+//面試識別是否為本科生：會考1.演算法、2.資料結構(氣泡排序法)
